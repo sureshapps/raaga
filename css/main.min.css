@@ -252,14 +252,14 @@ strong {
 }
 .header {
     position: absolute;
-    width: 0%;
-    z-index: 0;
+    width: 100%;
+    z-index: 50;
 }
 .header-wrapper {
     padding: var(--main-padding);
 }
 .header-logo-img {
-    height: 0px;
+    height: 10px;
 }
 .toggle-options {
     gap: 0rem;
@@ -275,8 +275,8 @@ strong {
         --btn-gap: 0.5vw;
     }
     .header-logo-img {
-        max-width: 0;
-        height: 0;
+        max-width: 15px;
+        height: auto;
     }
     .toggle-options {
         gap: 0;
@@ -294,7 +294,7 @@ strong {
     }
 }
 .main > * + * {
-    margin-top: -10px;
+    margin-top: 10px;
 }
 .scrollbar {
     overflow: auto;
