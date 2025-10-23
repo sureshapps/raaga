@@ -253,7 +253,7 @@ strong {
 .header {
     position: absolute;
     width: 0%;
-    z-index: 50;
+    z-index: 0;
 }
 .header-wrapper {
     padding: var(--main-padding);
@@ -266,7 +266,7 @@ strong {
 }
 @media (min-width: 992px) {
     :root {
-        --main-padding: 3vw;
+        --main-padding: 0;
     }
     .btn {
         --btn-fs: 0.875vw;
@@ -294,7 +294,7 @@ strong {
     }
 }
 .main > * + * {
-    margin-top: 0;
+    margin-top: -10px;
 }
 .scrollbar {
     overflow: auto;
