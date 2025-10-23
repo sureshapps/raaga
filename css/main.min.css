@@ -6,7 +6,7 @@
     --bg-transparent: rgb(255 255 255 / 10%);
     --bg-modal: rgb(255 255 255 / 20%);
     --bg-dark: rgb(0 0 0 / 75%);
-    --bg-gradient: linear-gradient(140deg, #280000, #510000);
+    --bg-gradient: transparent;
     --color-title: #ffffff;
     --color-text: rgb(241 194 50 / 80%);
     --duration: 0.3s;
@@ -252,17 +252,17 @@ strong {
 }
 .header {
     position: absolute;
-    width: 100%;
+    width: 0%;
     z-index: 50;
 }
 .header-wrapper {
     padding: var(--main-padding);
 }
 .header-logo-img {
-    height: 50px;
+    height: 0px;
 }
 .toggle-options {
-    gap: 0.5rem;
+    gap: 0rem;
 }
 @media (min-width: 992px) {
     :root {
@@ -275,17 +275,17 @@ strong {
         --btn-gap: 0.5vw;
     }
     .header-logo-img {
-        max-width: 7vw;
-        height: auto;
+        max-width: 0;
+        height: 0;
     }
     .toggle-options {
-        gap: 0.5vw;
+        gap: 0;
     }
 }
 @media (max-width: 991px) {
     .header {
-        background: var(--accent, var(--bg-gradient));
-        box-shadow: var(--shadow-l);
+        background: transparent;
+        box-shadow: var(--shadow-0);
     }
     .toggle-options {
         --btn-fs: 0;
@@ -294,7 +294,7 @@ strong {
     }
 }
 .main > * + * {
-    margin-top: 3rem;
+    margin-top: 0;
 }
 .scrollbar {
     overflow: auto;
