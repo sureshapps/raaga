@@ -381,13 +381,13 @@ strong {
     }
 }
 .i {
-    stroke-width: var(--i-stroke, 3);
-    width: var(--i-size, 30px);
-    height: var(--i-size, 30px);
+    stroke-width: var(--i-stroke, 2);
+    width: var(--i-size, 40px);
+    height: var(--i-size, 40px);
     stroke: currentColor;
     stroke-linecap: round;
     stroke-linejoin: round;
-    fill: none;
+    fill: #f1c232;
 }
 @keyframes pulse {
     from {
