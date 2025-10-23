@@ -8,7 +8,7 @@
     --bg-dark: rgb(0 0 0 / 75%);
     --bg-gradient: linear-gradient(140deg, #280000, #510000);
     --color-title: #ffffff;
-    --color-text: rgb(204 0 0 / 50%);
+    --color-text: rgb(241 194 50 / 80%);
     --duration: 0.3s;
     --container: 1480px;
     --spacer: 1rem;
@@ -259,7 +259,7 @@ strong {
     padding: var(--main-padding);
 }
 .header-logo-img {
-    height: 80px;
+    height: 50px;
 }
 .toggle-options {
     gap: 0.5rem;
@@ -275,7 +275,7 @@ strong {
         --btn-gap: 0.5vw;
     }
     .header-logo-img {
-        max-width: 10vw;
+        max-width: 7vw;
         height: auto;
     }
     .toggle-options {
@@ -382,8 +382,8 @@ strong {
 }
 .i {
     stroke-width: var(--i-stroke, 2);
-    width: var(--i-size, 24px);
-    height: var(--i-size, 24px);
+    width: var(--i-size, 0px);
+    height: var(--i-size, 0px);
     stroke: currentColor;
     stroke-linecap: round;
     stroke-linejoin: round;
@@ -1235,9 +1235,11 @@ strong {
 }
 .color-text {
     color: var(--color-text);
+    font-size: 1.5rem;
 }
 .color-title {
     color: var(--color-title);
+    font-size: 2.5rem;
 }
 .fs-1 {
     font-size: 2.5rem;
