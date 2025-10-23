@@ -259,7 +259,9 @@ strong {
     padding: var(--main-padding);
 }
 .header-logo-img {
-    height: 10px;
+    height: 40px;
+    
+    background-color: white;
 }
 .toggle-options {
     gap: 0rem;
@@ -275,7 +277,7 @@ strong {
         --btn-gap: 0.5vw;
     }
     .header-logo-img {
-        max-width: 15px;
+        max-width: 50px;
         height: auto;
     }
     .toggle-options {
