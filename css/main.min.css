@@ -1,20 +1,20 @@
 :root {
-    --primary: #6c6fc6;
-    --bg-body: #262626;
-    --bg-app: #0a0a0a;
-    --bg-inset: #404040;
+    --primary: #f3f6f4;
+    --bg-body: #ffffff;
+    --bg-app: #eeeeee;
+    --bg-inset: #f3f6f4;
     --bg-transparent: rgb(255 255 255 / 10%);
     --bg-modal: rgb(255 255 255 / 20%);
     --bg-dark: rgb(0 0 0 / 75%);
-    --bg-gradient: linear-gradient(140deg, #a92bcd, #439bc1);
-    --color-title: #ffffff;
-    --color-text: rgb(255 255 255 / 50%);
+    --bg-gradient: linear-gradient(140deg, #f3f6f4, #eeeeee);
+    --color-title: #cc0000;
+    --color-text: rgb(204 0 0 / 50%);
     --duration: 0.3s;
     --container: 1480px;
     --spacer: 1rem;
-    --shadow-l: 0px 8px 17px 2px rgba(0, 0, 0, 0.14), 0px 3px 14px 2px rgba(0, 0, 0, 0.12), 0px 5px 5px -3px rgba(0, 0, 0, 0.2);
-    --shadow-xl: 0px 16px 24px 2px rgba(0, 0, 0, 0.14), 0px 6px 30px 5px rgba(0, 0, 0, 0.12), 0px 8px 10px -7px rgba(0, 0, 0, 0.2);
-    --scrollbar-color: rgb(255 255 255 / 50%);
+    --shadow-l: 0px 8px 17px 2px rgba(204, 0, 0, 0.14), 0px 3px 14px 2px rgba(204, 0, 0, 0.12), 0px 5px 5px -3px rgba(204, 0, 0, 0.2);
+    --shadow-xl: 0px 16px 24px 2px rgba(204, 0, 0, 0.14), 0px 6px 30px 5px rgba(204, 0, 0, 0.12), 0px 8px 10px -7px rgba(204, 0, 0, 0.2);
+    --scrollbar-color: rgb(204 0 0 / 50%);
     --main-padding: 1rem;
 }
 html {
